@@ -11,12 +11,13 @@ import android.widget.Button;
 import android.widget.Chronometer;
 
 
-public class MainActivity extends ActionBarActivity {
+public class ClockActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.clock);
+
         final Button start = (Button) findViewById(R.id.start);
         final Chronometer counter = (Chronometer) findViewById(R.id.counter);
         start.setOnClickListener(new View.OnClickListener() {
@@ -30,7 +31,7 @@ public class MainActivity extends ActionBarActivity {
 
             }
 
-            });
+        });
         counter.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
             @Override
             public void onChronometerTick(Chronometer chronometer) {
@@ -45,7 +46,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_clock, menu);
         return true;
     }
 
