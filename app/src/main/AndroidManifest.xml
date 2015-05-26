@@ -26,7 +26,10 @@
             android:name=".BaseAdapterActivity"
             android:label="@string/title_activity_base_adapter" >
 
-            <intent-filter>
+        </activity>
+        <activity
+            android:name=".AutoTextViewActivity"
+            android:label="@string/title_activity_auto_text_view" > <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
