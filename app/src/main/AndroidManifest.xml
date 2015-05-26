@@ -25,11 +25,15 @@
         <activity
             android:name=".BaseAdapterActivity"
             android:label="@string/title_activity_base_adapter" >
-
         </activity>
         <activity
             android:name=".AutoTextViewActivity"
-            android:label="@string/title_activity_auto_text_view" > <intent-filter>
+            android:label="@string/title_activity_auto_text_view" >
+        </activity>
+        <activity
+            android:name=".CalPrime"
+            android:label="@string/title_activity_cal_prime" >
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />

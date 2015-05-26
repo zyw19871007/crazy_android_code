@@ -1,7 +1,7 @@
 package com.sdu.zyw.shadow.myapplication;
 
 import android.app.Activity;
-import android.support.v7.app.ActionBarActivity;
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,6 +22,7 @@ public class AutoTextViewActivity extends Activity {
         arrayAdapter = new ArrayAdapter(this, simple_dropdown_item_1line, strings);
         AutoCompleteTextView autoCompleteTextView= (AutoCompleteTextView)findViewById(R.id.autotext);
         autoCompleteTextView.setAdapter(arrayAdapter);
+        AlertDialog.Builder builder;
 
     }
 
