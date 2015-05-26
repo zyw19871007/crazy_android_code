@@ -21,6 +21,8 @@ public class AdapterViewActivity extends ActionBarActivity {
 
 
 
+
+
     }
 
     @Override
