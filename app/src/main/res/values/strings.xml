@@ -6,4 +6,5 @@
     <string name="title_activity_clock">ClockActivity</string>
     <string name="title_activity_adapter_view">AdapterViewActivity</string>
     <string name="title_activity_simple_adapter">SimpleAdapterActivity</string>
+    <string name="title_activity_base_adapter">BaseAdapter</string>
 </resources>

@@ -17,11 +17,15 @@
         <activity
             android:name=".AdapterViewActivity"
             android:label="@string/title_activity_adapter_view" >
-
         </activity>
         <activity
             android:name=".SimpleAdapterActivity"
             android:label="@string/title_activity_simple_adapter" >
+        </activity>
+        <activity
+            android:name=".BaseAdapterActivity"
+            android:label="@string/title_activity_base_adapter" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
