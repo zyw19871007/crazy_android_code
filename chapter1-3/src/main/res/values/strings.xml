@@ -9,4 +9,5 @@
     <string name="title_activity_base_adapter">BaseAdapter</string>
     <string name="title_activity_auto_text_view">AutoTextView</string>
     <string name="title_activity_cal_prime">CalPrime</string>
+    <string name="title_activity_async_task">AsyncTaskActivity</string>
 </resources>
